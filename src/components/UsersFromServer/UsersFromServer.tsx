@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./UsersFromServer.css";
 
-interface User {
+export interface User {
   id: number;
   name: string;
   username: string;
@@ -16,7 +16,6 @@ interface User {
       lng: string;
     };
   };
-
   phone: string;
   website: string;
   company: {
